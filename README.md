@@ -17,10 +17,8 @@ Git
 
 
 Clone the Repository
-bash
-Copy
-Edit
-git clone https://github.com/your-username/weather-app.git
+
+https://github.com/SD-Wire/weather-app.git
 cd weather-app
 
 
@@ -31,6 +29,9 @@ cd backend
 🖥️ Start the Backend Dev Server
 php artisan serve
 The API will be running at http://localhost:8000
+
+generate OPenWeatherApiToken and add it to .env in your backend 
+eg. OPENWEATHERMAP_API_KEY=de9a9a9eeb6b971b2c4a6a5292a49add
 
 💻 Frontend (Next.js + TailwindCSS)
 📦 Setup
